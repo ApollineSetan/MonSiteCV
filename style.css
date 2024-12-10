@@ -16,7 +16,7 @@
     --bg-color: #081b29;
     --second-bg-color: #112e42;
     --text-color: #ededed;
-    --main-color: #00abf0;
+    --main-color: #f0b000;
 }
 
 html {
@@ -100,7 +100,7 @@ section {
 
 .home-content .text-animate {
     position: relative;
-    width: 32.8rem;
+    width: 77rem;
 }
 
 .home-content .text-animate h3 {
@@ -178,7 +178,7 @@ section {
 .home-sci {
     position: absolute;
     bottom: 4rem;
-    width: 110px;
+    width: 130px;
     display: flex;
     justify-content: space-between;
 }
@@ -188,10 +188,10 @@ section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: transparent;
-    border: .2rem solid var(--main-color);
+    border: .3rem solid var(--main-color);
     border-radius: 50%;
     font-size: 20px;
     color: var(--main-color);
@@ -243,6 +243,16 @@ width: 100%;
     gap: 2rem;
     background: var(--second-bg-color);
     padding-bottom: 6rem;
+}
+
+
+.home {
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+    background: url('/images/home.jpg') no repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .heading {
@@ -394,6 +404,35 @@ span {
 .education-content .content p {
     font-size: 1.6rem;
     padding-top: .5rem;
+}
+
+/* A propos de la formation */
+.training-program {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--second-bg-color);
+    padding-bottom: 6rem;
+}
+
+.about-program {
+    max-width: 71rem;
+}
+
+.about-program h3 {
+    font-size: 2.6rem;
+}
+
+.about-program p {
+    font-size: 2rem;
+    padding-top: 1.5rem;
+}
+
+.about-program ul {
+    font-size: 1.6rem;
+    padding-top: .8rem;
 }
 
 /* Compétences */
